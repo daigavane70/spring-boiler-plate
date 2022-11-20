@@ -10,7 +10,15 @@
         <module name="server" />
         <module name="repository" />
         <module name="common" />
+        <module name="kafka" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="" />
+      <module name="repository" options="" />
+      <module name="server" options="" />
+    </option>
   </component>
 </project>

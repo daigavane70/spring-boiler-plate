@@ -1,6 +1,3 @@
-com/sprint/server/controller/SubmissionController.class
-com/sprint/server/controller/CallbackController.class
-com/sprint/server/MainApplication.class
-com/sprint/server/controller/QuestionController.class
+com/sprint/server/controller/TestController.class
 com/sprint/server/controller/UserController.class
-com/sprint/server/controller/ContestController.class
+com/sprint/server/MainApplication.class

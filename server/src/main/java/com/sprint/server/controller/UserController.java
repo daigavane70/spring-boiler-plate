@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-@RestController
 @Slf4j
+@RestController
 public class UserController {
 
     @Autowired
@@ -52,15 +52,10 @@ public class UserController {
     @PostMapping(value = "/user", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
     public HttpApiResponse createNewUser(CreateUserRequest user) {
         try {
-
             log.info("[createNewUser] creating the new user for requestBody: {}", user);
             String encodedPassword = Utils.encodePassword(user.getPassword());
-            User newUser = User.builder().
-                    email(user.getEmail()).
-                    name(user.getName()).
-                    mobile(user.getMobile()).
-                    password(encodedPassword).
-                    build();
+            User newUser = User.builder().email(user.getEmail()).name(user.getName()).mobile(user.getMobile())
+                    .password(encodedPassword).build();
 
             User generatedUser = userRepository.save(newUser);
             return new HttpApiResponse(generatedUser);

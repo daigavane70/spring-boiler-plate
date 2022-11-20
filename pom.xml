@@ -3,20 +3,22 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>org.sprint.com</groupId>
-    <artifactId>oj</artifactId>
+    <artifactId>boilerplate</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>${project.version}</version>
     <modules>
         <module>server</module>
         <module>repository</module>
         <module>common</module>
+        <module>kafka</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
+        <project.name>boilerplate</project.name>
+        <project.version>1.0-SNAPSHOT</project.version>
     </properties>
 
     <dependencies>
@@ -51,7 +53,6 @@
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -61,16 +62,11 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
             <plugin>
-                <!-- Build an executable JAR -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
+                <groupId>net.revelc.code.formatter</groupId>
+                <artifactId>formatter-maven-plugin</artifactId>
+                <version>2.21.0</version>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.sprint.server.MainApplication</mainClass>
-                        </manifest>
-                    </archive>
+                    <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
         </plugins>

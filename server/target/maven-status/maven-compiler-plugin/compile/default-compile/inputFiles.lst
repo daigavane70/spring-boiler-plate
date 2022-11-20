@@ -1,6 +1,3 @@
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/controller/UserController.java
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/controller/SubmissionController.java
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/MainApplication.java
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/controller/ContestController.java
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/controller/CallbackController.java
-/Users/upstox/IdeaProjects/oj/server/src/main/java/com/sprint/server/controller/QuestionController.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/server/src/main/java/com/sprint/server/controller/UserController.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/server/src/main/java/com/sprint/server/MainApplication.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/server/src/main/java/com/sprint/server/controller/TestController.java
