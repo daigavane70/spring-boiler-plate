@@ -1,3 +1,4 @@
 com/sprint/server/controller/TestController.class
+com/sprint/server/controller/VideoController.class
 com/sprint/server/controller/UserController.class
 com/sprint/server/MainApplication.class
