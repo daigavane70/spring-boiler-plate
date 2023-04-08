@@ -2,4 +2,5 @@
 /Users/upstox/IdeaProjects/spring-boiler-plate/common/src/main/java/com/sprint/common/request/CreateUserRequest.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/common/src/main/java/com/sprint/common/response/HttpApiResponse.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/common/src/main/java/com/sprint/common/utils/Utils.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/common/src/main/java/com/sprint/common/config/SchedulerConfig.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/common/src/main/java/com/sprint/common/constants/Constants.java

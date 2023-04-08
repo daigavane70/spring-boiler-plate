@@ -1,4 +1,6 @@
 /Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/repositories/UserRepository.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/entity/AccountNumbers.java
+/Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/entity/Order.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/entity/Video.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/repositories/VideoRepository.java
 /Users/upstox/IdeaProjects/spring-boiler-plate/repository/src/main/java/com/sprint/repository/entity/User.java
