@@ -1,0 +1,2 @@
+This is the original text file
+This is the second line of content
